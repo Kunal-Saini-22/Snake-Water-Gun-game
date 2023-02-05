@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Snake-Water-Gun-Game</title>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="heading">
+            <h1>Snake /  Water /  Gun</h1>
+        </div>
+
+        <!-- snake box -->
+        <div class="cards">
+            <div class="box">
+                <div class="card">
+                    <img src="./assets/snake.jpg" alt="snake image">
+                </div>
+                <div class="button" id="snake">
+                    <button type="button" onclick="respond('snake')">Snake</button>
+                </div>
+            </div>
+            
+            <div class="box">
+                <div class="card">
+                    <img src="./assets/water.jpg" alt="water image">
+                </div>
+                <div class="button " id="water">
+                    <button type="button" onclick="respond('water')">Water</button>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="card" id="gun">
+                    <img src="./assets/gun.avif" alt="gun image">
+                </div>
+                <div class="button">
+                    <button type="button" onclick="respond('gun')">Gun</button>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="result" id="result"></div>
+    </div>
+
+    <script src="script.js"></script>  
+</body>
+</html>
